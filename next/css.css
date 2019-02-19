@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  height: 60px ;
+  width: 100%;
+
+}
+
+nav ul {
+    display: inline;
+    padding: 18px 3%;
+    float: right;
+    text-align: center;
+
+}
+
+nav ul li  {
+  list-style-type: none;
+  color: #fff;
+  padding: 8px 20px;
+  display: inline;
+  text-decoration: none;
+  font-family: Consolas;
+  font-weight: 	bold;
+  font-size: 20px ;
+  z-index: -1;
+  text-align: center;
+}
+
+li:hover {
+  //background-color: #555;
+  color: white;
+  border-bottom: 2px solid #08FDD8 ;
+  z-index:999;
+  //background-image: url(logo.png);
+}
+
+body {
+	background-color: #37393A;
+}
+
+section h1{
+	color: #fff;
+	font-family: Consolas;
+	font-size: 60px;
+	margin-left: 100px;
+	margin-top: 60px;
+}
+
+section h2{
+	color: #8e8181;
+	font-family: Consolas;
+	font-size: 22px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+
+
+.btn {
+	margin-top: 40px;
+	margin-left: 100px;
+	border: 3px solid #08FDD8;
+	border-radius: 20px;
+	background-color: transparent;
+	font-family: Consolas;
+	padding: 10px 40px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #08FDD8;
+}
+
+.btn:hover {
+	margin-top: 40px;
+	margin-left: 100px;
+	border: 3px solid #08FDD8;
+	border-radius: 20px;
+	background-color: transparent;
+	font-family: Consolas;
+	padding: 10px 40px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #37393A;
+	background-color: #08FDD8;
+}

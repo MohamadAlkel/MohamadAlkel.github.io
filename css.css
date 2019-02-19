@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  height: 60px ;
+  width: 100%;
+  
+}
+
+
+
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+	cursor: default;
+}
+
+nav ul {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    padding: 18px 3%;
+    float: right;
+    text-align: center;
+    z-index: 2;
+
+}
+
+nav ul li  {
+  list-style-type: none;
+  
+  padding: 0 20px;
+  height: 33px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: Consolas;
+  font-weight: 	bold;
+  font-size: 20px ;
+  text-align: center;
+
+}
+
+nav ul li a {
+	color: #ffffffad;
+	height: 40px;
+}
+
+.redb {
+	display: inline;
+}
+
+
+
+
+li:hover {
+   color: #fff ;
+   font-size: 20px;
+
+   border-bottom: 2px solid #08FDD8 ; 
+}
+
+
+
+
+body {
+	background-color: #37393A;
+}
+
+
+section h1{
+	color: #fff;
+	font-family: Consolas;
+	font-size: 50px;
+	margin-left: 10%;
+	margin-top: 60px;
+	font-weight: bold;
+	bo
+}
+
+section h2{
+	color: #8e8181;
+	font-family: Consolas;
+	font-size: 18px;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+
+
+
+
+.btn {
+	margin-top: 40px;
+	margin-left: 10%;
+	border: 3px solid #08FDD8;
+	border-radius: 20px;
+	background-color: transparent;
+	font-family: Consolas;
+	padding: 10px 40px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #08FDD8;
+}
+
+.btn:hover {
+	margin-top: 40px;
+	margin-left: 10%;
+	border: 3px solid #08FDD8;
+	border-radius: 20px;
+	background-color: transparent;
+	font-family: Consolas;
+	padding: 10px 40px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #37393A;
+	background-color: #08FDD8;
+}
+
+.row {
+	width: 100%;
+}
+
+.diver {
+	position: absolute;
+	background-color: #fff;
+	width: 2px;
+	height: 400px;
+	margin-top: 50px;
+
+}
+
+
+@media(max-width: 767px) {
+	nav {
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  height: 60px ;
+  width: 100%;
+
+}
+
+   
+ 
+}
+
+
